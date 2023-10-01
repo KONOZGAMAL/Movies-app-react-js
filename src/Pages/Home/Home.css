@@ -1,0 +1,28 @@
+.container{
+    padding-top: 80px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 767px) {
+      width: 98%;
+    }
+}
+
+.movies{
+ width: 250px;
+ box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.5);
+height: 360px;
+margin: 20px;
+padding: 10px;
+cursor: pointer;
+}
+.movies img{
+  width: 100%;
+  height: 260px;
+}
+      
+    

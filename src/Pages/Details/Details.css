@@ -1,0 +1,27 @@
+.details{
+    padding-top: 120px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid red;
+    @media (max-width: 767px) {
+      width: 98%;
+    }
+}
+.details img{
+    flex-basis: 50%;
+    @media (max-width: 767px) {
+        width: 98%;
+      }
+}
+.details p{
+    flex-basis: 50%;
+    @media (max-width: 767px) {
+        width: 98%;
+      }
+
+}
