@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 export default function Details() {
   const params = useParams();
   const movId = params.movieId;
-  console.log(movId);
   const imgUrl = "https://image.tmdb.org/t/p/w500/";
 
     const [movies,setMovies]=useState()
@@ -15,7 +14,6 @@ export default function Details() {
         .then((res)=>{
          if (res.status === 200 ){
          setMovies(res.data)
-         console.log(res);
       }
      }).catch((error)=>{
          console.log(error);})},[movId])   
@@ -33,6 +31,7 @@ export default function Details() {
         <button>Watch it</button>
         <Link to="/"> go to Home</Link>
       </div>
+
     </div>
   );
 }

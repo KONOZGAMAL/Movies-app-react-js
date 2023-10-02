@@ -8,7 +8,7 @@ export default function MoviesList(props) {
     <div className="movies">
         <Link to={`/movie/${props.items.id}`}>
             <img src={imgUrl + poster_path} alt=''/>
-            <h4>{title}</h4>
+            <h4 className='tex'>{title}</h4>
             <p>{vote_average}</p>
         </Link>
         <Outlet/>
