@@ -1,4 +1,4 @@
-import './Header.module.css'
+
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
@@ -52,7 +52,7 @@ function Header(props) {
       <CssBaseline />
       <AppBar component="nav" 
           sx={{
-            bgcolor: "#41206D",
+            bgcolor: "#874fd0",
           }}>
         <Toolbar>
           <IconButton
